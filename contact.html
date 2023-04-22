@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/js">
+        function sendEmail(){
+        Host : "smtp.elasticmail.com",
+        Username : "wilson.dallas82@gmail.com",
+        Password : "Dwilson1982",
+        To : 'wilson.dallas82@gmail.com',
+        From : "wilson.dallas82@gmail.com",
+        Subject : "New Enquiry",
+        Body : "Test",  
+        }).then(
+            message => alert("Thank you for your Enquiry")
+        );
+    </script>
+ </head>
+
+ <body>
+    <header>
+    <div class="banner">
+        <div class="bottom-left">Sydney Road Mechanical</div>
+    </div>
+    <nav role="navigation" aria-label="main menu">
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="Service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <form onsubmit="sendEmail(); reset(); return false;" class = "custinfo" name="custinfo" id="custinfo">
+
+        <input name="name" type="text"  class = "allinputs" placeholder="First Name" size="40" required>
+        
+        <input name="surname" type="text" class="allinputs" placeholder="Surname" size="40" required>
+        
+        <input name="number" type="tel" class="allinputs" placeholder="Contact Number" size="40" required>
+        
+        <input name="email" type="email" class="allinputs" placeholder="Email Address" size="40" required>
+
+        <textarea id="query" name="query" cols="40" rows="15" class="allinputs" placeholder="Enter your query here"></textarea>
+
+        <button type="submit">Submit Query</button>
+      </form>
+
+      <iframe class = "mapframe" id="map" name = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1570.9093797698615!2d149.60087682802995!3d-32.61045033993676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b0e890780fe0d65%3A0x2f389e15fb6726a6!2sSydney%20Road%20Mechanical%20Repairs!5e0!3m2!1sen!2sau!4v1680260277845!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      
+      
+
+ </body>
+</html>

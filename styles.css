@@ -1,0 +1,120 @@
+html {
+    margin: 2em;
+    font-size: 180%;
+  }
+  
+    
+  html {
+    font-family: arial;
+    line-height: 1.5;
+  }
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    width: max-content;
+    gap: 1rem;
+    border: none;
+    margin: 4em 0;
+    padding: 0.25em 1em;
+    position: absolute;
+    left: 3.1%;
+    top: 15.5%;
+  }
+  .navbar li {
+    display: block; 
+  }
+  .navbar a {
+    text-decoration: none;
+    color: #0100E8;
+  }
+  .navbar a:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+  }
+  
+  footer {
+    font-size: 10px;
+    position: absolute;
+    left: 25;
+    bottom: 10%;
+  }
+  .banner {
+    background-image: url(banner.png);
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    color: white;
+    font: white;
+  }
+  .bottom-left {
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    font-size: 75px;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+  }
+  *, *::after, *::backdrop {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+ .allinputs {
+  font-size: 12px;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  display:block;
+  width: 300px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  margin:10px 0;
+  bottom: 1px solid #E2E2E2;
+  outline: medium none;
+ }
+
+ .allinputs::-webkit-input-placeholder {
+  font-style: italic;
+ }
+
+ .allinputs::-moz-placeholder {
+  font-style: italic;
+ }
+
+ .allinputs::-ms-input-placeholder {
+  font-style: italic;
+ }
+
+  button {
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 10px;
+    border: none;
+    background-color: #3F51BF;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 200px;
+    vertical-align: middle;
+    position: relative;
+    top: 100px;
+    left: 150px;
+  }
+
+.mapframe {
+  border: none;
+  position: relative;
+  top: -365px;
+  left: 600px;
+  }
+
+  h4 {
+    margin-top: 100px;
+    font: arial;
+    color: #0100E8;
+     }
