@@ -24,7 +24,7 @@
     </nav>
     </header>
 
-    <form onsubmit="sendEmail(); reset(); return false;" class = "custinfo" name="custinfo" id="custinfo">
+    <form method="post" class = "custinfo" name="custinfo" id="custinfo">
 
         <input name="name" type="text"  class = "allinputs" placeholder="First Name" size="40" required>
         
@@ -36,7 +36,7 @@
 
         <textarea id="query" name="query" cols="40" rows="15" class="allinputs" placeholder="Enter your query here"></textarea>
 
-        <button type="submit">Submit Query</button>
+        <input type="button" value ="Submit Query" onclick="sendEmail()"/>
       </form>
 
       <iframe class = "mapframe" id="map" name = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1570.9093797698615!2d149.60087682802995!3d-32.61045033993676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b0e890780fe0d65%3A0x2f389e15fb6726a6!2sSydney%20Road%20Mechanical%20Repairs!5e0!3m2!1sen!2sau!4v1680260277845!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
