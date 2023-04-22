@@ -1,7 +1,7 @@
 
         function sendEmail() {
           Email.send({
-          Host : "smtp.elasticmail.com",
+          Host : "smtp.gmail.com",
           Username : "wilson.dallas82@gmail.com",
           Password : "Dwilson1982",
           To : 'wilson.dallas82@gmail.com',
